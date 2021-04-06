@@ -5251,3 +5251,12 @@ pre[class*="language-"].line-numbers > code {
   display: block;
   padding-right: 0.8em;
   text-align: right; }
+
+
+
+
+.citation {
+  word-wrap: break-word;
+  /*border: 1px solid grey;*/
+  /*border-radius: 5px;*/
+}
