@@ -12,6 +12,7 @@
 
     <!-- Bootstrap CSS / Color Scheme -->
     <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel = "icon" data-feather="circle" type = "image/x-icon">
 </head>
 <body>
 
@@ -21,17 +22,24 @@
         <div class="row">
             <div class="col-12 d-flex flex-row align-items-center justify-content-between">
                 <div class="heading-brand">Text2App</div>
-                <a href="https://prismjs.com/download.html" class="btn btn-dark" target="_blank">Download</a>
+                
             </div>
         </div>
         <div class="row mt-6">
             <div class="col-md-8 mx-auto text-center">
-                <h1>Syntax Highlighter for Every Language</h1>
-                <p class="lead mb-5">Prism is a lightweight, extensible syntax highlighter, built with modern web
-                    standards in mind. It’s used in thousands of websites, including some of those you visit daily.</p>
-                <a href="https://github.com/LeaVerou/prism/" class="btn btn-success svg-icon">
+                <h1>Android app from text description.</h1>
+                <p class="lead mb-5">Text2App is a framework for creating functional Android application from text descriptions. It uses pretrained RoBERTa for Natural Language Understanding and MIT App Inventor as a backend for creating apps.</p>
+                <a href="https://github.com/Masum06/Text2App" class="btn btn-success svg-icon"  target="_blank" style="background-color:green; border:green">
                     <em class="mr-2" data-feather="github"></em>
                     Contribute
+                </a>
+                <a href="https://colab.research.google.com/drive/1kSKg4-9_ZPrbAQ_7_zbD6AoYV-dEE3yV?usp=sharing" class="btn btn-success svg-icon" target="_blank" style="background-color:orange; border:orange">
+                    <em class="mr-2" data-feather="code"></em>
+                    Try it!
+                </a>
+                <a href="https://www.youtube.com/watch?v=7zrWB-ZsnsM&ab_channel=MasumHasan" class="btn btn-success svg-icon" target="_blank" style="background-color:red; border:red">
+                    <em class="mr-2" data-feather="youtube"></em>
+                    Watch demo
                 </a>
             </div>
         </div>
@@ -48,7 +56,7 @@ NL = 'Make an app with a video player, a button, an accelerometer, and a text \
 to speech. When the button is pressed, play the video. When the accelerometer \
 is shaken, say "Welcome to text to app!".'
 t2a = Text2App(NL)
-sar_to_aia(t2a.SAR, t2a.literal_dict, project_name="MyApp")</code></pre>
+sar_to_aia(t2a, project_name="MyApp")</code></pre>
                 </div>
             </div>
         </div>
